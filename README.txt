@@ -1,0 +1,2 @@
+-Mockup web ada pada folder mockup
+-Laporan dokumentasi ada pada folder Uas

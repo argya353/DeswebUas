@@ -1,0 +1,676 @@
+.navbar{
+	position: relative;
+}
+.navbar a img{
+	height: 50px;
+	width: 110px;
+}
+.navbar-brand{
+	font-family: cursive;
+}
+.nav-link{
+	margin-right:30px;
+	position: relative;
+}
+
+.jumbotron{
+	background-image: url(images/landing.jpg);
+	background-size: cover;
+	height: 540px;
+	text-align: center;
+	position: relative;
+	background-attachment: fixed;
+	margin-bottom: 0 !important;
+
+
+}
+.jumbotron::after{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image:linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+	position: absolute;
+	bottom: 0;
+
+}
+.jumbotron .display-4{
+	margin-top: 100px;
+	color: #e1990f;
+	font-weight: 200;
+	font-size: 40px;
+	font-family: 'Playfair Display', serif;
+	position: relative;
+	z-index: 1;
+
+}
+
+.jumbotron .tombol{
+	border-radius: 7px;
+	margin-left: 10px;
+	border-color: none;
+	background-color:transparent;
+	border-color: yellow;
+	color: white;
+	position: relative;
+	z-index: 1;}
+.jumbotron .tombol:hover{
+	border-radius: 10px;
+	color: white;
+	background-color:yellow;
+	color: black;
+	position: relative;
+	transition: 0.5s;
+	z-index: 1}
+.book_now{
+	display: inline-flex;
+	margin-bottom: 15px;
+	background-color: #efefee;
+
+}
+	
+/*fasilitas*/
+.container h3{
+	margin-top: 10px;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	color: #e1990f;
+}
+.container .text_motto2::before,.container .text_motto2::after{
+	content: open-quote;
+	align-content: center;
+	font-size: 60px;
+	line-height: 0;
+	color: #e1990f;
+	position: relative;
+	top: 20px;
+	}
+.container .text_motto2::after{
+	content: close-quote;
+
+}
+.container .text_motto{
+	text-align: center;
+	margin-top: 30px;
+}
+.container .text_motto2 p{
+	text-align: center;
+}
+.container h1{
+	text-align: center;
+	color: #766a65;
+}
+.container h2{
+	text-align: center;
+	font-size: 40px;
+	margin-top:40px; 
+	font-family: 'Playfair Display', serif;
+	margin-bottom:20px;
+	color: #e1990f;
+}
+.container br{
+	text-align: center;
+	font-family:'Roboto', sans-serif;
+	color: #766a65;
+}
+.container .text_1 {
+	text-align: center;
+	font-size: 30px;
+}
+.container .serviceA {
+margin-top: 50px;
+text-align: left !important;
+color: #766a65;
+margin-bottom: 50px;
+font-family:  arial;
+text-align:center;
+}
+.container .serviceA h2{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Playfair Display', serif;
+
+	}
+.container .serviceA p{
+margin-bottom: 50px;
+color: #766a65;
+text-align:center;
+font-family:'Roboto', sans-serif;
+}
+.fitur{
+	margin-top: 20px;
+	display: flex;
+	margin-bottom: 20px;
+	margin-left: 20px !important;
+	margin-right: 20px !important;
+}
+.color{
+	border: 5px solid white;
+}
+.color2{
+	border: 5px solid white;
+	padding-top: 65px;
+	padding-bottom: 73px;
+	padding-left: 20px;
+	padding-right: 20px
+	margin-bottom:20px;
+
+}
+.color_serv2{
+	padding: 0;
+}
+
+
+
+/*paralax*/
+.paralax{
+	height: 250px;
+	width: 100%;
+	background-image: url(images/paralax.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+.paralax p{
+	margin-top:50px;
+	text-align: center;
+	font-size: 40px;
+	color: white;
+
+}
+/*Paralax*/
+
+/*------------------------------------------------------------------------------------------------Galeri home-----------------------------------------------------------------*/
+.galeri_home{
+margin-top: 50px;
+margin-bottom: 10px;
+
+}
+.galeri_home h3{
+	text-align: center;
+	font-size: 40px;
+	margin-bottom:50px;
+}
+/*----------------------------------------------------------------------------------------------Edn of Galeri home-----------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------News---------------------------------------------------------------------------*/
+.news_back{
+	background-color: #d9d9d9;
+	box-sizing: border-box;
+
+}
+.NewsA{
+	margin-top: 20px;
+	display: flex;
+	margin-bottom: 20px;
+	margin-left: 20px !important;
+	margin-right: 20px !important;
+	align-content: center;
+}
+
+/*----------------------------------------------------------------------------------------------------Partner------------------------------------------------------------------------*/
+.container h4{
+	margin-top: 50px;
+}
+.container .border{
+	border: 3px solid white;
+
+}
+/*Partner*/
+.container .border2{
+	border:3px;
+	border-color: none;
+	transition: 0.5s;
+}
+.container .border2 img:hover{
+	margin-top: -10px;
+	transition: 0.5s;
+}
+
+/*------------------------------------------------------------------------------------------------------footer---------------------------------------------------------------------*/
+.page-footer{
+	background-color:black;
+	color:#666;
+	padding: 40px 0 30px; 
+	margin-top: 50px;
+} 
+.footer-copyright{color:#666;
+	padding: 40px 0; 
+}  
+
+
+/**--------------------------------------------------------------------------------------------------End Of Page 1 Home------------------------------------------------------*/
+/**--------------------------------------------------------------------------------------------------Page 2 Dining Room------------------------------------------------------*/
+.Dining_Banner{
+	position: relative;
+    height: 500px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.Dining_Banner img{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: 0;
+}
+.Dining{
+	position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+}
+.Dining h1{
+    display: block;
+    color: black;
+    margin: 0;
+    font-weight: 300;
+    padding: 15px 20px;
+    min-width: 400px;
+    text-transform: uppercase;
+}
+.dining_fitur{
+	margin-top: 20px;
+	color: #766a65;
+
+}
+.dining_fitur p{
+	font-size: 20px;
+}
+/**--------------------------------------------------------------------------------------------------End Of Page 2 Dining------------------------------------------------------*/
+/**--------------------------------------------------------------------------------------------------Page 3 Galeri-------------------------------------------------------------*/
+
+.Galeri_Banner{
+	position: relative;
+    height: 500px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.Galeri_Banner img{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: 0;
+}
+.Galeri{
+	position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+}
+.Galeri h1{
+    display: block;
+    color: black;
+    margin: 0;
+    font-weight: 300;
+    padding: 15px 20px;
+    min-width: 400px;
+    text-transform: uppercase;
+}
+.Container .color3{
+	margin-top: 50px !important;
+}
+.accordion h5{
+	text-align: left !importants;
+	color: red !important;
+}
+.card{
+	border:0;
+	border-color:none;
+	margin-top: 40px;
+	color: black;
+}
+.card-header{
+	background-color:#dec06f!important;
+	border-color: none;
+	box-shadow: none;
+}
+/**--------------------------------------------------------------------------------------------------End Of Page 3 Galeri------------------------------------------------------*/
+/**--------------------------------------------------------------------------------------------------Page 4 Meeting Room------------------------------------------------------*/
+
+/*Room*/
+.Room_Banner{
+	position: relative;
+    height: 500px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.Room_Banner img{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: 0;
+}
+.Room{
+	position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+}
+.Room h1{
+    display: block;
+    color: black;
+    margin: 0;
+    font-weight: 300;
+    padding: 15px 20px;
+    min-width: 400px;
+    text-transform: uppercase;
+}
+.ruangan{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-family: arial;
+}
+/**--------------------------------------------------------------------------------------------------End Of Page 4 Room------------------------------------------------------*/
+/**--------------------------------------------------------------------------------------------------Page 5 Fun and leisure------------------------------------------------------*/
+.Fun_Banner{
+	position: relative;
+    height: 500px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.Fun_Banner img{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: 0;
+}
+.Fun{
+	position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+}
+.Fun h1{
+    display: block;
+    color: black;
+    margin: 0;
+    font-weight: 300;
+    padding: 15px 20px;
+    min-width: 400px;
+    text-transform: uppercase;
+}
+.Fun_fitur{
+	margin-top: 20px;
+	color: #766a65;
+
+}
+.Fun_fitur h6{
+	margin-bottom: 30px;
+	font-size: 30px;
+	text-align: center !important;
+	margin-top: 30px;
+}
+.Fun_fitur h3{
+	text-align: left;
+	font-size: 30px;
+	color: #766a65;
+	font-family: Gotham A,Gotham B,Helvetica Neue,Helvetica,sans-serif;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	font-size: 30px;
+}
+
+.Fun_fitur p{
+	text-align: left;
+	margin-left: 20px;
+	font-size: 20px;
+}
+.Fun_fitur img{
+	margin-bottom: 10px;
+}
+.color4{
+	background-color: #efeffe;
+}
+
+/**--------------------------------------------------------------------------------------------------End of Page 5 Fun ------------------------------------------------------*/
+/**--------------------------------------------------------------------------------------------------Page 4 Meeting Room------------------------------------------------------*/
+.Meet_Banner{
+	position: relative;
+    height: 400px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.Meet_Banner img{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.Meet{
+	position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+}
+.Meet h1{
+    display: block;
+    color: black;
+    margin: 0;
+    font-weight: 300;
+    padding: 15px 20px;
+    min-width: 400px;
+    text-transform: uppercase;
+}
+.tombol_meet{
+	text-align: center;
+	display: inline-block;
+	background-color: orange;
+	color: white;
+}
+.Meet_fitur{
+	color: #766a65;
+	font-family:'Roboto', sans-serif; 
+}
+/**-------------------------------------------------------------------------------------------------------Contact-------------------------------------------------------------*/
+.Contact_Banner{
+	position: relative;
+    height: 500px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.Contact_Banner img{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: 0;
+}
+.Contact{
+	position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+}
+.Contact h1{
+    display: block;
+    color: black;
+    margin: 0;
+    font-weight: 300;
+    padding: 15px 20px;
+    min-width: 400px;
+    text-transform: uppercase;
+}
+.btn_tombol{
+	background-color: none;
+	border-color: #5ae874;
+	color: black;
+	display:block;
+}
+.btn_tombol:hover{
+	background-color: #5ae874;
+	color: white;
+	transition: 0.8s;
+}
+.back_img{
+	background-image: url(images/contac1.jpg);
+	background-size: cover;
+}
+
+
+
+.backToTop{
+  display: none;
+  position: fixed;
+  bottom: 100px;
+  right: 50px;
+  font-size: 3em;
+  z-index: 9999;
+  height: 50px;
+  width: 50px;
+  background-color: #ed4755;
+  text-align: center;
+  border-radius: 10px;
+}
+.backToTop i{
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  color: #fff;
+}
+.backToTop i:hover{
+  color: #aaa;
+}
+
+
+
+
+/* Dekstop Only*/
+
+/*Navbar*/
+@media(min-width: 992px){
+	.navbar{
+		background-color:black;
+		opacity: 0.6;
+		filter: alpha(opacity=60);
+		z-index: 1;
+		 	}
+	.navbar-brand,.nav-link{
+		color: white !important;
+		z-index: 1;
+	}
+	.nav-link{
+	margin-right:30px;
+	text-transform: uppercase;
+	position: relative;
+	}
+	.nav-link.active{
+		background-color: white;
+		color: black !important;
+		border-radius: 5%;
+	}
+
+	.nav-link.tanda:hover::after{
+		content: "";
+		display: block;
+		border-bottom:3px solid white;
+		width: 45%;
+		margin: auto;
+		padding-bottom: 3px;
+		margin-bottom:-6px;
+	}
+/*Jumbotron*/
+	.jumbotron{
+		height: 630px;
+
+
+	}
+	.jumbotron .display-4{
+	margin-top: 130px;
+	font-size: 60px;
+	font-weight: 200;
+	margin-bottom: 30px;
+	}
+	.book_now{
+		display: block;
+	}
+	/*Service*/
+	/*Paralax*/
+	.paralax{
+	height: 300px;
+	width: 100%;
+	background-image: url(images/paralax.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	}
+	.paralax p{
+		margin-top:70px;
+		text-align: center;
+		font-size: 50px;
+		color: white;
+	}
+	.Room h1{
+		display: inline-block;
+		background-color:hsla(0,0%,100%,.9);
+		border:3px solid white;
+		margin-top: 420px;
+		box-shadow: 0 15px 30px 0 rgba(0,0,0,.3);
+		position: relative;
+	}
+	.Contact h1{
+		display: inline-block;
+		margin-top: 420px;
+		background-color:hsla(0,0%,100%,.9);
+		border:3px solid white;
+		box-shadow: 0 15px 30px 0 rgba(0,0,0,.3);
+		position: relative;
+	}
+	.Galeri h1{
+		display: inline-block;
+		margin-top: 420px;
+		background-color: hsla(0,0%,100%,.9);
+		border:3px solid white;
+		box-shadow: 0 15px 30px 0 rgba(0,0,0,.3);
+		position: relative;
+	}
+	.Dining h1{
+		display: inline-block;
+		margin-top: 420px;
+		background-color: hsla(0,0%,100%,.9);
+		border:3px solid white;
+		box-shadow: 0 15px 30px 0 rgba(0,0,0,.3);
+		position: relative;
+	}
+	.Meet h1{
+		display: inline-block;
+		margin-top: 420px;
+		background-color: hsla(0,0%,100%,.9);;
+		border:3px solid white;
+		box-shadow: 0 15px 30px 0 rgba(0,0,0,.3);
+		position: relative;
+	}
+	.Meet_Banner{
+	position: relative;
+    height: 500px;
+    width: 100%;
+    box-sizing: border-box;
+	}
+	.Fun h1{
+		display: inline-block;
+		margin-top: 420px;
+		background-color: hsla(0,0%,100%,.9);;
+		border:3px solid white;
+		box-shadow: 0 15px 30px 0 rgba(0,0,0,.3);
+		position: relative;
+	}
+	.dining_fitur p{
+	font-size: 25px;}
+
+	
+
+}
